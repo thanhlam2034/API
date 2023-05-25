@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cbb6bb-03fb-4df5-adc0-4fcd8424d8f4" name="Changes" comment="commit first time">
-      <change afterPath="$PROJECT_DIR$/src/test/java/APITests.java" afterDir="false" />
+    <list default="true" id="21cbb6bb-03fb-4df5-adc0-4fcd8424d8f4" name="Changes" comment="commit workspace">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_POST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Test_POST.Test_1">
     <configuration name="APITests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +60,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_GET" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_GET" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_GET.Test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_GET" />
+      <option name="METHOD_NAME" value="Test_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_POST.Test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_POST" />
+      <option name="METHOD_NAME" value="Test_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_POST.Test_1" />
+        <item itemvalue="TestNG.Test_GET.Test_1" />
+        <item itemvalue="TestNG.Test_GET" />
         <item itemvalue="TestNG.APITests" />
       </list>
     </recent_temporary>
@@ -86,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684945568356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit workspace">
+      <created>1684970602626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684970602626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit first time" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit first time" />
+    <MESSAGE value="commit workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit workspace" />
   </component>
 </project>
