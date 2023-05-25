@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cbb6bb-03fb-4df5-adc0-4fcd8424d8f4" name="Changes" comment="commit workspace">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_GET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDrivenExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_POST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +47,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/AutoWP/API",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Test_POST.Test_1">
-    <configuration name="APITests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DataDrivenExample.Test_2_POST">
+    <configuration name="DataDrivenExample (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -60,10 +66,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_GET" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataDrivenExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_GET" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,10 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_GET.Test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataDrivenExample.Test_2_POST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_GET" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenExample" />
+      <option name="METHOD_NAME" value="Test_2_POST" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAPI.Test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MockAPI" />
       <option name="METHOD_NAME" value="Test_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -83,11 +101,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_POST.Test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MockAPI.Test_2_POST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_POST" />
-      <option name="METHOD_NAME" value="Test_1" />
+      <option name="MAIN_CLASS_NAME" value="MockAPI" />
+      <option name="METHOD_NAME" value="Test_2_POST" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,10 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_POST.Test_1" />
-        <item itemvalue="TestNG.Test_GET.Test_1" />
-        <item itemvalue="TestNG.Test_GET" />
-        <item itemvalue="TestNG.APITests" />
+        <item itemvalue="TestNG.DataDrivenExample.Test_2_POST" />
+        <item itemvalue="TestNG.DataDrivenExample (1)" />
+        <item itemvalue="TestNG.DataDrivenExample" />
+        <item itemvalue="TestNG.MockAPI.Test_2_POST" />
+        <item itemvalue="TestNG.MockAPI.Test_1" />
       </list>
     </recent_temporary>
   </component>

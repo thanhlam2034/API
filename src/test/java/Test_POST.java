@@ -11,11 +11,6 @@ public class Test_POST {
 
     @Test
     void Test_1(){
-
-//        Map<String, Object> map = new HashMap<String, Object>();
-//        map.put("name", "morpheus");
-//        map.put("job", "leader");
-
         JSONObject request = new JSONObject();
         request.put("name", "morpheus");
         request.put("job", "leader");
@@ -31,6 +26,56 @@ public class Test_POST {
                     post("https://reqres.in/api/users").
                 then().
                 statusCode(201);
+    }
+
+    @Test
+    void Test_2_Put(){
+        JSONObject request = new JSONObject();
+        request.put("name", "morpheus");
+        request.put("job", "zion resident");
+
+        System.out.println(request);
+
+        given().
+                header("Content-Type", "application/json").
+                contentType(ContentType.JSON).
+                accept(ContentType.JSON).
+                body(request.toJSONString()).
+                when().
+                put("https://reqres.in/api/users/2").
+                then().
+                statusCode(200).
+                log().all();
+    }
+    @Test
+    void Test_3_Patch(){
+        JSONObject request = new JSONObject();
+        request.put("name", "morpheus");
+        request.put("job", "zion resident");
+
+        System.out.println(request);
+
+        given().
+                header("Content-Type", "application/json").
+                contentType(ContentType.JSON).
+                accept(ContentType.JSON).
+                body(request.toJSONString()).
+                when().
+                patch("https://reqres.in/api/users/2").
+                then().
+                statusCode(200).
+                log().all();
+    }
+
+    @Test
+    void Test_4_Delete(){
+
+        given().
+                when().
+                delete("https://reqres.in/api/users/2").
+                then().
+                statusCode(204).
+                log().all();
     }
 
 }
